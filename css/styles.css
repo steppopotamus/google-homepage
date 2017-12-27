@@ -1,0 +1,115 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Typography*/
+
+body {
+	font-family: arial, sans-serif;
+}
+a:link {
+	text-decoration: none;
+	color: #555;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/*Content Wrapper*/
+#content-wrapper {
+	padding: 2rem;
+}
+
+/*Top Menu Block */
+.menu-top-block {
+	text-align: right;
+}
+
+.menu-top-block ul li {
+	display: inline;
+	padding-left: 10px;
+}
+
+/*Logo and search form blocks*/
+.logo-block {
+	text-align: center;
+	margin-top: 10rem;
+	margin-bottom: 1rem;
+}
+
+form.search-form {
+	display: block;
+	text-align: center;
+}
+
+form.search-form .search-field-block input {
+	width: 60%;
+	height: 2rem;
+	margin-bottom: 2rem;
+	font-size: 1.4rem;
+}
+/*Buttons*/
+form .first-button-block,
+form .second-button-block {
+	width: 50%;
+	display: inline;
+}
+
+form .first-button-block button,
+form .second-button-block button {
+	width: 10%;
+	height: 2rem;
+	border: 1px solid #ccc;
+}
+
+form .first-button-block button:hover,
+form .second-button-block button:hover {
+	background: #ccc;
+	border: 1px solid #555;
+}
